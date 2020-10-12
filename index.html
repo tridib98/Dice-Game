@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Pacifico&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="one">
+        <!-- *******PLAYER 1 PANEL************ -->
+        <div id="left" class="player-panel">
+            <div class="name" id="lname">PLAYER 1</div>
+            <div id="left-global-score" class="global-score">0</div>
+            <div id="lefti" class="local">
+                <div class="current" id="lnew">CURRENT</div>
+                <div class="current-local" id="left-current">0</div>
+            </div>
+        </div>
+
+        <!-- buttons and score display -->
+        <div class="buttons">
+            <button id="new-game" class="btn" onclick="set_to_zero()"> NEW + GAME</button>
+            <div class="main">
+                <div id="first" class="show">
+                    <div class="pics">
+                        <img id="a" src="images/dice-1.png" alt="1" width="120px" height="120px">
+                    </div>
+                    <div class="pics">
+                        <img id="b" src="images/dice-2.png" alt="2" width="120px" height="120px">
+
+                    </div>
+                   
+                </div>
+                <div class="lower-btn">
+                    <button id="roll-dice" class="btn" onclick="Roll()">() ROLL DICE</button>
+                    <button id="hold" class="btn" onclick="hold()">! HOLD </button>
+                </div>
+            </div>
+            
+            </div>
+
+            <!-- *******PLAYER 2 PANEL************ -->
+
+            <div id="right" class="player-panel">
+                <div class="name" id="Rname">PLAYER 2</div>
+                <div id="right-global-score" class="global-score">0</div>
+                <div id="righti" class="local">
+                    <div class="current" id="rnew">CURRENT</div>
+                    <div class="current-local" id="right-current">0</div>
+                </div>
+            </div>
+
+        </div>
+        <script src="app.js"></script>
+</body>
+
+</html>

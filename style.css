@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    
+    
+}
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 3px solid black; */
+    align-items: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgba(230, 222, 222, 0.3); */
+
+
+}
+.one{
+    /* border: 5px solid black; */
+    display: inline-flex;
+    /* margin-top: 10px; */
+    /* padding: 5px; */
+}
+.name{
+    border: 2px solid black;
+    /* display: inline; */
+    margin: 10px;
+    padding: 10px;
+    color: red;
+    font-size: 50px;
+    font-family: cursive;
+
+}
+.global-score{
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+}
+.local{
+    /* border:3px solid rgb(247, 7, 7); */
+    margin: 10px;
+    padding: 10px;
+}
+.current{
+    border: 1px solid rgb(240, 106, 106);
+    background-color:rgb(240, 106, 106) ;
+    border-bottom-style: none;
+    padding: 10px;
+    /* margin: 10px; */
+    color: rgb(0, 0, 0) ;
+
+}
+.current-local{
+    border:1px solid rgb(240, 106, 106);
+    background-color:rgb(240, 106, 106) ;
+    border-top-style: none;
+    display: flex;
+    justify-content: center;
+}
+#global{
+    text-align: center;
+    color: black ;
+}
+.buttons{
+    /* border: 5px solid black; */
+    /* margin: 10px; */
+    /* padding: 10px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    height:540px;
+}
+.player-panel{
+    /* border: 2px solid black; */
+    /* margin: 10px; */
+    /* padding: 10px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lower-btn{
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin-top: 0px;
+    
+}
+.btn{
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+    border: none;
+    
+}
+#hold{
+    margin-top:0px;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:rgba(238, 136, 136, 0.3);
+    
+}
+.btn:focus{
+    outline: none;
+    background-color:  rgba(238, 136, 136, 0.3);
+}
+#left{
+    width:350px;
+    height:540px;
+    background-color:rgba(238, 136, 136, 0.3);
+}
+#right{
+    width: 350px;
+    height: 540px;
+}
+.pics{
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 10px;
+}
+img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 15px;
+}
